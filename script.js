@@ -5,7 +5,7 @@ function hasKey(key) {
 	
 	let containsKey = 'key' in sampleObject;
 	if(containsKey) return true;
-	else false;
+	return false;
 	}
 }
 
